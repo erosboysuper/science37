@@ -1,0 +1,85 @@
+.tweet-feed {
+    &__container {
+        max-width: 880px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    &__header-title {
+        margin-bottom: 22px;
+        font-weight: 400;
+        color: #333;
+    }
+
+    &__main-area {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__sidebar {
+        margin-top: -45px;
+    }
+}
+
+
+@media only screen and (max-width: 767.98px) {
+    .search-area {
+        order: 1;
+        margin: 0 15px;
+    }
+
+    .tweet-feed__header {
+        margin: 0 15px;
+    }
+
+    .search-area__button {
+        padding: 0 5px;
+    }
+
+    .tweet-feed__sidebar {
+        order: 2;
+        margin-top: 20px;
+    }
+
+
+
+    .filter-area {
+        width: auto;
+    }
+
+    .tweet-area__posts {
+        order: 3;
+    }
+}
+
+@media (max-width: 991.98px) { 
+
+    .tweet-feed__header {
+        padding: 0 15px;
+    }
+
+    .search-area {
+        order: 1;
+        margin: 0 15px;
+    }
+    
+    .search-area {
+        width: 100%;
+    }
+
+    .tweet-area__posts {
+        order: 3;
+        width: 100%;
+    }
+
+    .tweet-feed__sidebar {
+        order: 2;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .filter-area {
+        width: 100%;
+    }
+ }

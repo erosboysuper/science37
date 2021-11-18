@@ -1,0 +1,29 @@
+.filter-area {
+    width: 250px;
+    background: #fff;
+    padding: 15px 10px;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .08);
+    
+    &__title {
+        margin-bottom: 20px;
+        font-weight: 400;
+        color: #333;
+    }
+
+    &__items {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        display: inline-block;
+        background: #e7f3fa;
+        color: #397bb5;
+        padding: 7px 10px;
+        border-radius: 25px;
+        font-size: 14px;
+        margin: 5px 8px 5px 0;
+        cursor: pointer;
+    }
+}

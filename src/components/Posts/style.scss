@@ -1,0 +1,17 @@
+.tweet-area {
+    &__posts {
+        width: 605px;
+        border-radius: 3px;
+        background: #fff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .08);
+        margin-top: 20px;
+    }
+
+    &__loadmore {
+        text-align: center;
+        padding: 25px 0;
+        font-size: 14px;
+        color: #558ec0;
+        cursor: pointer;
+    }
+}
